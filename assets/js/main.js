@@ -49,7 +49,7 @@ btnTinhTienCap.addEventListener('click', () => {
     let tongTienCap = document.querySelector('#tongTienCap');
     let tienCap = tinhTienCap(soKenh, soKetNoi, loaiKhachHang);
 
-    tongTienCap.innerHTML = `Mã khách hàng: ${maKH}; Tiền cáp: ${tienCap}`;
+    tongTienCap.innerHTML = `Mã khách hàng: ${maKH}; Tiền cáp: ${tienCap}$`;
 });
 
 
